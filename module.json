@@ -1,17 +1,22 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "ddb-comp",
+  "name": "ddb-comp",
+  "title": "DDB Compendium Pack",
+  "description": "Compendium Packs",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10
+  },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "CrimsonAlba",
+      "url": "https://github.com/bobby-driggs/ddb-comp",
+      "discord": "crimsonalba#4306"
     }
   ],
   "dependencies": [
@@ -45,6 +50,124 @@
     {
       "type": "icon",
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ],
+  "packs": [
+    {
+      "name": "feats-ddb",
+      "label": "Feats (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/feats-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "backgrounds-ddb",
+      "label": "Backgrounds (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/backgrounds-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "classes-ddb",
+      "label": "Classes (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/classes-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "class-features-ddb",
+      "label": "Class Features (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/class-features-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "items-ddb",
+      "label": "Items (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/items-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "monsters-ddb",
+      "label": "Monsters (DDB)",
+      "type": "Actor",
+      "system": "dnd5e",
+      "path": "/packs/monsters-ddb.db",
+      "entity": "Actor",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "override-ddb",
+      "label": "Override (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/override-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "races-ddb",
+      "label": "Races (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/races-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "racial-traits-ddb",
+      "label": "Racial Traits (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/racial-traits-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "spells-ddb",
+      "label": "Spells (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/spells-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "subclasses-ddb",
+      "label": "Subclasses (DDB)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/subclasses-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "tables-ddb",
+      "label": "Tables  (DDB)",
+      "type": "RollTable",
+      "path": "/packs/tables-ddb.db",
+      "entity": "RollTable",
+      "module": "ddb-comp"
+    },
+    {
+      "name": "vehicles-ddb",
+      "label": "Vehicles (DDB)",
+      "type": "Actor",
+      "system": "dnd5e",
+      "path": "/packs/vehicles-ddb.db",
+      "entity": "Actor",
+      "module": "ddb-comp"
     }
   ]
 }
