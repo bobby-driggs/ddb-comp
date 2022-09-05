@@ -6,6 +6,9 @@
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
+  "system": [
+    "dnd5e"
+  ],
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "10",
   "compatibility": {
@@ -19,12 +22,8 @@
       "discord": "crimsonalba#4306"
     }
   ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
+  "dependencies": [],
+  "conflicts": [],
   "esmodules": [
     "scripts/module.js"
   ],
