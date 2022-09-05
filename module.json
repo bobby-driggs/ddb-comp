@@ -4,8 +4,6 @@
   "title": "DDB Compendium Pack",
   "description": "Compendium Packs",
   "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
   "system": [
     "dnd5e"
   ],
@@ -22,35 +20,9 @@
       "discord": "crimsonalba#4306"
     }
   ],
-  "dependencies": [],
-  "conflicts": [],
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ],
   "packs": [
     {
       "name": "feats-ddb",
