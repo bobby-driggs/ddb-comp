@@ -1,0 +1,116 @@
+{
+  "id": "ddb-comp",
+  "title": "DDB Compendium Pack",
+  "description": "Compendium Packs",
+  "version": "This is auto replaced",
+  "system": [
+    "dnd5e"
+  ],
+  "packs": [
+    {
+      "name": "feats-ddb",
+      "label": "Feats (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/feats-ddb.db",
+      "tpye": "Item"
+    },
+    {
+      "name": "backgrounds-ddb",
+      "label": "Backgrounds (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/backgrounds-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "classes-ddb",
+      "label": "Classes (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/classes-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "class-features-ddb",
+      "label": "Class Features (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/class-features-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "items-ddb",
+      "label": "Items (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/items-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "monsters-ddb",
+      "label": "Monsters (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/monsters-ddb.db",
+      "type": "Actor"
+    },
+    {
+      "name": "override-ddb",
+      "label": "Override (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/override-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "races-ddb",
+      "label": "Races (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/races-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "racial-traits-ddb",
+      "label": "Racial Traits (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/racial-traits-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "spells-ddb",
+      "label": "Spells (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/spells-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "subclasses-ddb",
+      "label": "Subclasses (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/subclasses-ddb.db",
+      "type": "Item"
+    },
+    {
+      "name": "tables-ddb",
+      "label": "Tables (DDB)",
+      "path": "./packs/tables-ddb.db",
+      "type": "RollTable"
+    },
+    {
+      "name": "vehicles-ddb",
+      "label": "Vehicles (DDB)",
+      "system": "dnd5e",
+      "path": "./packs/vehicles-ddb.db",
+      "type": "Actor"
+    }
+  ],
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10
+  },
+  "authors": [
+    {
+      "name": "CrimsonAlba",
+      "url": "https://github.com/bobby-driggs/ddb-comp"
+    }
+  ],
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced"
+}

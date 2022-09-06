@@ -1,101 +1,132 @@
 {
-  "id": "ddb-comp",
+  "name": "ddb-comp",
   "title": "DDB Compendium Pack",
+  "author": "CrimsonAlba0",
   "description": "Compendium Packs",
-  "version": "This is auto replaced",
-  "system": [
-    "dnd5e"
-  ],
   "packs": [
     {
       "name": "feats-ddb",
       "label": "Feats (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/feats-ddb.db",
-      "tpye": "Item"
+      "path": "/packs/feats-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "backgrounds-ddb",
       "label": "Backgrounds (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/backgrounds-ddb.db",
-      "type": "Item"
+      "path": "/packs/backgrounds-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "classes-ddb",
       "label": "Classes (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/classes-ddb.db",
-      "type": "Item"
+      "path": "/packs/classes-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "class-features-ddb",
       "label": "Class Features (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/class-features-ddb.db",
-      "type": "Item"
+      "path": "/packs/class-features-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "items-ddb",
       "label": "Items (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/items-ddb.db",
-      "type": "Item"
+      "path": "/packs/items-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "monsters-ddb",
       "label": "Monsters (DDB)",
+      "type": "Actor",
       "system": "dnd5e",
-      "path": "./packs/monsters-ddb.db",
-      "type": "Actor"
+      "path": "/packs/monsters-ddb.db",
+      "entity": "Actor",
+      "module": "ddb-comp"
     },
     {
       "name": "override-ddb",
       "label": "Override (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/override-ddb.db",
-      "type": "Item"
+      "path": "/packs/override-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "races-ddb",
       "label": "Races (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/races-ddb.db",
-      "type": "Item"
+      "path": "/packs/races-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "racial-traits-ddb",
       "label": "Racial Traits (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/racial-traits-ddb.db",
-      "type": "Item"
+      "path": "/packs/racial-traits-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "spells-ddb",
       "label": "Spells (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/spells-ddb.db",
-      "type": "Item"
+      "path": "/packs/spells-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "subclasses-ddb",
       "label": "Subclasses (DDB)",
+      "type": "Item",
       "system": "dnd5e",
-      "path": "./packs/subclasses-ddb.db",
-      "type": "Item"
+      "path": "/packs/subclasses-ddb.db",
+      "entity": "Item",
+      "module": "ddb-comp"
     },
     {
       "name": "tables-ddb",
-      "label": "Tables (DDB)",
-      "path": "./packs/tables-ddb.db",
-      "type": "RollTable"
+      "label": "Tables  (DDB)",
+      "type": "RollTable",
+      "path": "/packs/tables-ddb.db",
+      "entity": "RollTable",
+      "module": "ddb-comp"
     },
     {
       "name": "vehicles-ddb",
       "label": "Vehicles (DDB)",
+      "type": "Actor",
       "system": "dnd5e",
-      "path": "./packs/vehicles-ddb.db",
-      "type": "Actor"
+      "path": "/packs/vehicles-ddb.db",
+      "entity": "Actor",
+      "module": "ddb-comp"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/bobby-driggs/ddb-comp/main/src/module.json",
+  "download": "https://github.com/bobby-driggs/ddb-comp/raw/main/module.zip",
+  "id": "ddb-comp",
+  "authors": [
+    {
+      "name": "CrimsonAlba0"
     }
   ],
   "minimumCoreVersion": "10",
@@ -104,13 +135,5 @@
     "minimum": 10,
     "verified": 10
   },
-  "authors": [
-    {
-      "name": "CrimsonAlba",
-      "url": "https://github.com/bobby-driggs/ddb-comp"
-    }
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced"
+  "version": "0.10.3"
 }
