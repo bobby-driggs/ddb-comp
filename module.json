@@ -12,7 +12,7 @@
       "label": "Feats (DDB)",
       "system": "dnd5e",
       "path": "./packs/feats-ddb.db",
-      "tpye": "Item"
+      "type": "Item"
     },
     {
       "name": "backgrounds-ddb",
