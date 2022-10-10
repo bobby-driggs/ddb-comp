@@ -37,7 +37,7 @@ foreach (var pack in worldModule.packs)
 	var packDbFilePath = Path.Combine(worldDirectory, pack.path);
 	var packData = File.ReadAllText(packDbFilePath);
 
-	var newWorldData = packData.Replace("@Compendium[world.", $"@Compendium[{worldId}.");
+	var newWorldData = packData; // packData.Replace("@Compendium[world.", $"@Compendium[{worldId}.");
 
 	foreach (var info in replacementInfo)
 	{
